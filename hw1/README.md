@@ -5,10 +5,10 @@ recordings in `hw1_data/` (men, women, and children producing 12 vowels each).
 
 ## Contents
 
-- `problem1.ipynb` - Formant/pitch extraction (Praat via `parselmouth`), steady-state
+- [`problem1.ipynb`](./problem1.ipynb) - Formant/pitch extraction (Praat via `parselmouth`), steady-state
   vowel-space visualization, group differences (men/women/children), vocal-tract-length
   (VTL) estimation, and VTL-based formant normalization.
-- `problem2.ipynb` - kNN vowel classification: feature preparation, k selection and
+- [`problem2.ipynb`](./problem2.ipynb) - kNN vowel classification: feature preparation, k selection and
   speaker-independent 5-fold cross-validation, generalization
   to children (raw vs. VTL-normalized formants), and MFCC-based features.
 - `output/` - Generated CSVs and figures:
