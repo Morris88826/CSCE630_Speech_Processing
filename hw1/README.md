@@ -15,6 +15,7 @@ recordings in `hw1_data/` (men, women, and children producing 12 vowels each).
   - `extracted_formants.csv`, `normalized_vowelspace.csv`, `feature_table_*.csv`
   - `problem1/`, `problem2/` - plots (steady-state windows, vowel space, VTL by group,
     cross-validation results, confusion matrices, generalization accuracy, etc.)
+- [`report.pdf`](./report.pdf) - A single report (PDF) containing every requested plot, table, and reported value from Parts 1–5, and a discussion of what those plots show. 
 
 ## Get Started
 
