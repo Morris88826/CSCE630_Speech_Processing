@@ -1,0 +1,13 @@
+id,type,text,spoken
+1,plain,The quick brown fox jumps over the lazy dog.,the quick brown fox jumps over the lazy dog
+2,plain,She sells seashells by the seashore.,she sells seashells by the seashore
+3,plain,Please call me when you get home tonight.,please call me when you get home tonight
+4,numbers,The meeting starts at 9:30 on March 5th.,the meeting starts at nine thirty on march fifth
+5,numbers,I paid 25 dollars for 3 tickets.,i paid twenty five dollars for three tickets
+6,numbers,Call 555-0142 before noon.,call five five five oh one four two before noon
+7,abbreviation,Dr. Smith lives on Elm St. in Houston.,doctor smith lives on elm street in houston
+8,abbreviation,NASA and the FBI shared the data.,nasa and the f b i shared the data
+9,name,Siobhan met Nguyen at the Worcester station.,siobhan met nguyen at the worcester station
+10,homograph,I will read the book you read yesterday.,i will read the book you read yesterday
+11,homograph,The wind will wind around the old road.,the wind will wind around the old road
+12,long,"Can you tell me how far it is from the library to the train station, and whether the bus runs on Sundays?",can you tell me how far it is from the library to the train station and whether the bus runs on sundays

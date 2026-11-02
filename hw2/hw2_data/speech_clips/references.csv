@@ -1,0 +1,7 @@
+file,condition,duration_s,reference
+clean_jfk.wav,clean,11.0,"And so, my fellow Americans, ask not what your country can do for you, ask what you can do for your country."
+clean_lj.wav,clean,9.67,"For although the Chinese took impressions from wood blocks engraved in relief for centuries before the woodcutters of the Netherlands, by a similar process"
+clean_libri.wav,clean,8.3,experience proves this why should one hold on the wrong side your power is sufficient i said
+noisy_jfk.wav,noisy,11.0,"And so, my fellow Americans, ask not what your country can do for you, ask what you can do for your country."
+noisy_lj.wav,noisy,9.67,"For although the Chinese took impressions from wood blocks engraved in relief for centuries before the woodcutters of the Netherlands, by a similar process"
+noisy_libri.wav,noisy,8.3,experience proves this why should one hold on the wrong side your power is sufficient i said

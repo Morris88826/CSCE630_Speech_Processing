@@ -22,7 +22,7 @@ class AudioAnalyzer:
 
     def get_f0_f1_f2(self):
         f0 = self.get_pitch()
-        f1, f2 = self.get_formant()
+        f1, f2 = self.get_formants()
         return f0, f1, f2
 
     def get_pitch(self, return_std=False):
@@ -31,7 +31,7 @@ class AudioAnalyzer:
             return np.median(voiced_f0_values), np.std(voiced_f0_values)
         return np.median(voiced_f0_values)
     
-    def get_formant(self):
+    def get_formants(self):
         formant = self.snd.to_formant_burg(self.time_step, 5, self.formant_max, 0.025, 50)
         f1 = []
         f2 = []
