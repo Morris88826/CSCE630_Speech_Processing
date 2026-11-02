@@ -7,13 +7,16 @@ def audio_player(path):
         audio_data = base64.b64encode(f.read()).decode("utf-8")
 
     return (
-        f'<audio controls preload="none" style="width:180px;">'
+        '<audio controls preload="none" style="width:180px;">'
         f'<source src="data:audio/wav;base64,{audio_data}" type="audio/wav">'
-        f'</audio>'
+        '</audio>'
     )
 
 
-def display_audio_table(effects, headers, results):
+def display_audio_table(results):
+    headers = list(results.keys())
+    n_rows = len(results["Original"])
+
     html = """
     <div style="overflow-x:auto;">
     <table style="border-collapse:collapse; text-align:center;">
@@ -25,25 +28,21 @@ def display_audio_table(effects, headers, results):
 
     html += "</tr></thead><tbody>"
 
-    for original_path, modifications in results.items():
-        modified = dict(modifications)
-
+    for i in range(n_rows):
         html += "<tr>"
 
-        # First column: original audio
-        html += (
-            '<td style="padding:10px; border:1px solid #ccc;">'
-            f'<b>{Path(original_path).stem}</b><br>'
-            f'{audio_player(original_path)}'
-            '</td>'
-        )
+        for header in headers:
+            path = results[header][i]
 
-        # Remaining columns: modified audio
-        for effect in effects:
-            path = modified[effect]
+            # Show filename only in the original column
+            name = (
+                f"<b>{Path(path).stem}</b><br>"
+                if header == "Original" else ""
+            )
+
             html += (
                 '<td style="padding:10px; border:1px solid #ccc;">'
-                f'{audio_player(path)}'
+                f'{name}{audio_player(path)}'
                 '</td>'
             )
 
