@@ -1,0 +1,41 @@
+model_type,file,transcript
+openai/whisper-tiny,my_voice_noisy.wav," When the sunlight strikes ring drop in the air, they act as a prison and form a rainbow. The rainbow is a division of white light into many beautiful colors. These take the shape of a long round art, with its path high above and is too ends apparently beyond the horizon."
+openai/whisper-tiny,noisy_lj.wav, For although the Chinese took impressions from wood blocks engraved in relief for centuries before the wood cutters of the Netherlands by a similar process.
+openai/whisper-tiny,noisy_jfk.wav," And so my fellow Americans, and not what your country can do for you, and what you can do for your country."
+openai/whisper-tiny,noisy_libri.wav," Experience proves this. Why should one fall on the way? Your power is sufficient, I say."
+openai/whisper-tiny,clean_lj.wav," For although the Chinese took impressions from wood blocks engraved in relief for centuries before the wood cutters of the Netherlands by a similar process,"
+openai/whisper-tiny,clean_jfk.wav, And so my fellow Americans ask not what your country can do for you ask what you can do for your country.
+openai/whisper-tiny,clean_libri.wav," experience proves this. Why should one halt on the way? Your power is sufficient, I said."
+openai/whisper-tiny,my_voice.wav," When the sound lights strike ring drop in the air, they access the prism and form a rainbow. The rainbow is a division of white light into many beautiful colors. These take the shape of a long-round art, with its path high above and its two ends apparently beyond the horizon."
+openai/whisper-tiny,sentence_12.wav, Can you tell me how far it is from the liberate to the train station and what are the best runs on Sundays?
+openai/whisper-tiny,sentence_7.wav, This Smith-Live Zahn-Alms didn't hasten.
+openai/whisper-tiny,sentence_9.wav, See y'all then metinway and at the Worcester Station.
+openai/whisper-tiny,sentence_1.wav, The quick brown fox jumps over the lazy dog.
+openai/whisper-tiny,sentence_4.wav, The meeting starts at the Unmarge Myth.
+openai/whisper-tiny,sentence_10.wav, I will read the book you read yesterday.
+openai/whisper-tiny,sentence_8.wav, Ness it and the five shared the day.
+openai/whisper-tiny,sentence_2.wav, She sells sea shells by the sea shore.
+openai/whisper-tiny,sentence_6.wav, Colbson code before known.
+openai/whisper-tiny,sentence_11.wav, The wind will wind around the old road.
+openai/whisper-tiny,sentence_5.wav, I paid in dollars for the tickets.
+openai/whisper-tiny,sentence_3.wav, Please call me when you get home tonight.
+openai/whisper-base,my_voice_noisy.wav," With the sunlight strikes raindrops in the air, they act as a prison and form a rainbow. The rainbow is a division of white light into many beautiful colors. These take the shape of a long round art, with its path height above and its two ends apparently beyond the horizon."
+openai/whisper-base,noisy_lj.wav," For although the Chinese took impressions from wood blocks engraved in relief for centuries before the wood cutters of the Netherlands by a similar process,"
+openai/whisper-base,noisy_jfk.wav," and so my fellow Americans, ask not what your country can do for you and what you can do for your country."
+openai/whisper-base,noisy_libri.wav," Experience proves this. Why should one halt on the way? Your power is sufficient, I said."
+openai/whisper-base,clean_lj.wav," For although the Chinese took impressions from wood blocks engraved in relief for centuries before the wood cutters of the Netherlands by a similar process,"
+openai/whisper-base,clean_jfk.wav," And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country."
+openai/whisper-base,clean_libri.wav," Experience proves this. Why should one halt on the way? Your power is sufficient, I said."
+openai/whisper-base,my_voice.wav," When the sunlight strikes rain drop in the air, they access the prism and form a rainbow. The rainbow is a division of white light into many beautiful colors. These take the shape of a long-round art, with its path high above and its two ends, apparently beyond the horizon."
+openai/whisper-base,sentence_12.wav, Can you tell me how far it is from the liberate to the train station and whether the bus runs on Sundays?
+openai/whisper-base,sentence_7.wav," His Smith lives on Elmsden, Houston."
+openai/whisper-base,sentence_9.wav, Siavan Mettinwein at the Worcester Station.
+openai/whisper-base,sentence_1.wav, The quick brown fox jumps over the laser dot.
+openai/whisper-base,sentence_4.wav, The meeting starts at the un-March myth.
+openai/whisper-base,sentence_10.wav, I will read the book you read yesterday.
+openai/whisper-base,sentence_8.wav, Nesset and the five shared the day.
+openai/whisper-base,sentence_2.wav, She sells sea shells but the sea shore.
+openai/whisper-base,sentence_6.wav, Colds of cold before noon.
+openai/whisper-base,sentence_11.wav, The wind will wind around the old road.
+openai/whisper-base,sentence_5.wav, I paid him dollars for the tickets.
+openai/whisper-base,sentence_3.wav, Please call me when you get home tonight.
