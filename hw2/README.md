@@ -27,5 +27,5 @@ Install necessary packages, such as `numpy`, `pandas`, `librosa`, `parselmouth-p
 `scipy`, `matplotlib`, `tqdm`, `torch`, `transformers`, and `jiwer`, plus the
 [Montreal Forced Aligner](https://montreal-forced-aligner.readthedocs.io/) for Problem 2.
 
-Place the data under `hw2_data/` (not tracked in git), then run the notebooks in
+Place the data under `hw2_data/`, then run the notebooks in
 order: `problem1.ipynb`, `problem2.ipynb`, then `problem3.ipynb`.
